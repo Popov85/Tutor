@@ -20,7 +20,7 @@ public class App extends Application {
         @Override
         public void start(Stage primaryStage) throws IOException {
                 Parent root = FXMLLoader.load(getClass().getResource("/Start.fxml"));
-                primaryStage.setTitle("English Tutor");
+                primaryStage.setTitle("Tutor FX");
                 primaryStage.setScene(new Scene(root, 655, 318));
                 primaryStage.setResizable(false);
                 primaryStage.show();
